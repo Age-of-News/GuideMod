@@ -1,0 +1,8 @@
+{
+  Name: "Guide Mod",
+  Description: "Guide Mod — mod for demonstration, how to create mods for Age of History III",
+  
+  Tags: ["Mod"],
+  
+  ChangeNote: "Not Have",
+}
