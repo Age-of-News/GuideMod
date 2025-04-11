@@ -1,0 +1,33 @@
+id=british_revolution
+title=Революционные Восстания по всей Великобритании
+desc=Ваше величество, в нашей империи начались массовые восстания. Что прикажете делать?
+
+image=br.png
+
+show_in_missions=false
+mission_image=0
+
+only_once=true
+
+popUp=true
+possible_to_run=true
+
+trigger_or
+next_and
+is_civ=uni
+is_player=uni
+random_chance=50.0
+civ_provinces_over=3000
+next_and
+is_civ=uni2
+is_player=uni2
+random_chance=50.0
+civ_provinces_over=3000
+trigger_or_end
+
+option_btn
+name=Освободить Владения
+ai=100
+explode=uni
+explode=uni2
+option_end
